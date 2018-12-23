@@ -12,7 +12,18 @@ using namespace std;
 		weights: 1 3 4 5
 		
 		Answer:9 (Value) (3rd and 2nd element) 
-
+		
+		-The matrix formed will be
+	wts: 0 1 2 3 4 5 6 7
+		 0 0 0 0 0 0 0 0
+		 0 1 1 1 1 1 1 1
+		 0 1 1 4 5 5 5 5
+		 0 1 1 4 5 6 6 9
+		 0 1 1 4 5 7 8 9
+		 
+		 the final value is T[n][wt] i.e, t[5][7] = 9
+	
+		
 */
 
 
