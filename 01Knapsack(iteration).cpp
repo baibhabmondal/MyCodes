@@ -10,7 +10,7 @@ using namespace std;
 	example: 
 		values : 1 4 5 7
 		weights: 1 3 4 5
-		
+		max weight: 7
 		Answer:9 (Value) (3rd and 2nd element) 
 		
 		-The matrix formed will be
