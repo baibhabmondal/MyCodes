@@ -14,7 +14,8 @@ using namespace std;
 		Answer:9 (Value) (3rd and 2nd element) 
 		
 		-The matrix formed will be
-	wts: 0 1 2 3 4 5 6 7
+	wts(included): 0 1 2 3 4 5 6 7 (0 to maxwt)
+		 
 		 0 0 0 0 0 0 0 0
 		 0 1 1 1 1 1 1 1
 		 0 1 1 4 5 5 5 5
