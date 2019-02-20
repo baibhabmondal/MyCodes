@@ -1,3 +1,30 @@
+/*
+Program to calculate the prime factors and their powers. 
+Sample Input: 20
+
+ouput: 
+
+Factors -> powers
+
+2 -> 2
+5 -> 1
+
+Explaination: 20 has three prime factors, 2, 2, and 5. That is, 2*2*5 = 20. therefore, 2's power is 2. And 5's power is 1. 
+
+Example 2: 
+
+i/p: 576
+o/p:  2 -> 6
+	  3 -> 2
+	  
+explaination: 2^6 * 3^2 = 576
+
+*/
+
+
+
+
+
 #include <iostream>
 #include <vector>
 #include <map>
