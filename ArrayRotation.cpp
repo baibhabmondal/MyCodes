@@ -1,8 +1,10 @@
 #include <iostream>
-
+#include <cctype>
+#include <stdlib.h>
+#include <cstring>
 using namespace std;
 
-void reverse(int arr[], int start, int end)
+/*void reverse(int arr[], int start, int end)
 {
 	int temp;
 	while(start<end)
@@ -39,4 +41,29 @@ int main()
 	rotateleft(n,arr, pivot);
 	return 0;
 	
+} */
+
+int main ()
+{
+	string s;
+	char temp;
+	cin>>s;
+	string s2 = s;	
+	int start = 0;
+	int end = s.length()-1;
+	while(start < end)
+	{
+		temp = s[start];
+		s[start] = s[end];
+		s[end] = temp;
+		start++;
+		end--;
+	}
+	cout<<s2<<endl<<s<<endl;
+	if (s == s2)
+		cout<<"Palindrome";
+	else
+		cout<<"Not palindrome";
+	return 0;
+
 }
