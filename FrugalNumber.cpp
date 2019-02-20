@@ -17,7 +17,7 @@
 			  which is strictly greater than the number of digits its prime factorization which is three (3, 7 and 3).
 			  
 			  
-Explaination Credits: GeeksForGeeks. 
+explanation Credits: GeeksForGeeks. 
 Link: https://www.geeksforgeeks.org/frugal-number/
 
 
