@@ -10,6 +10,8 @@ sum: 4
 o/p: exists. (since 2,2 results in 4)
 
 
+Time: O(n)
+
 */
 
 
