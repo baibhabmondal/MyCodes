@@ -8,3 +8,28 @@
 // canConstruct("a", "b") -> false
 // canConstruct("aa", "ab") -> false
 // canConstruct("aa", "aab") -> true
+
+class Solution
+{
+  public:
+    bool canConstruct(string ransomNote, string magazine)
+    {
+
+        unordered_map<char, int> m;
+
+        for (char i : magazine)
+        {
+            m[i]++;
+        }
+
+        for (char i : ransomNote)
+        {
+            if (m.find(i) == m.end())
+                return false;
+            if (--m[i] < 0)
+                return false;
+        }
+
+        return true;
+    }
+};
