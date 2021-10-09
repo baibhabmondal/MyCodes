@@ -23,7 +23,6 @@ public:
         for(int i : nums) 
         {
             res ^= i;
-            // cout<<res<<'\n';
         }
         return res;
     }
